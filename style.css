@@ -3,11 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     height: 100%;
-    width: 1366px;
-    margin: 0;
-    padding-top: 55;
-    border-radius: 50px;
-
 }
 
 .menu-item-logo {
@@ -19,11 +14,7 @@ body {
 
 }
 
-.image{
-    position: absolute;
-    border-radius: 50%;
-    direction: right;
-}
+
 .side-menu {
     height: 100%;
     width: 160px;
@@ -64,24 +55,23 @@ body {
     position: fixed;
 }
 
+/* texto central da barra de cima */
 .menu-top1 {
     position: absolute;
     height: 68px;
     width: 1146px;
     margin-left: 220px;
-    border-radius: 0px;
     background: #FDF1EB;
-    margin-top: -20px;
+    margin-top: 0;
     line-height: 0%;
     text-align: center;
 }
 
 .menu-top1 p {
-    padding-top: 10px;
     height: 20px;
     width: 491px;
-    border-radius: nullpx;
-    font-family: Roboto;
+    border-radius: 'nullpx';
+    font-family: 'Roboto';
     font-size: 14px;
     font-weight: 400;
     text-align: left;
@@ -90,12 +80,55 @@ body {
 
 }
 
+.menu-top1 h1 {
+    height: 26px;
+    width: 643px;
+    border-radius: 'nullpx';
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    color: #725C5C;
+    margin-left: 36px;
+    margin-top: -15px;
+}
+
+.menu-top1 h2 {
+    height: 16px;
+    width: 105px;
+    border-radius: 'nullpx';
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #725C5C;
+    margin-left: 36px;
+    margin-top: -15px;
+
+}
+
+/* canto esquerdo*/
+
+.linguagem {
+    position: absolute;
+    left: 1040px;
+    top: 19px;
+}
+
+.image {
+    position: absolute;
+    border-radius: -50%;
+    left: 1275px;
+    top: 6px;
+}
+
 .email {
     position: absolute;
     width: 163px;
     height: 15px;
-    left: 908px;
-    top: 36px;
+    left: 1100px;
+    top: 15px;
 
     font-family: 'Quicksand';
     font-style: normal;
@@ -113,8 +146,8 @@ body {
     position: absolute;
     width: 72px;
     height: 18px;
-    left: 999px;
-    top: 17px;
+    left: 1190px;
+    top: -2px;
 
     font-family: 'Quicksand';
     font-style: normal;
@@ -128,6 +161,7 @@ body {
     color: #333333;
 }
 
+/* canto direito, menu*/
 .apresentacao {
 
     height: 33px;
@@ -147,32 +181,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.menu-top1 h1 {
-    height: 26px;
-    width: 643px;
-    border-radius: nullpx;
-    font-family: Roboto;
-    font-size: 22px;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #725C5C;
-    margin-left: 36px;
-}
 
-.menu-top1 h2 {
-    height: 16px;
-    width: 105px;
-    border-radius: nullpx;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #725C5C;
-    margin-left: 36px;
-
-}
 
 .menu-item {
     position: static;
@@ -209,21 +218,22 @@ body {
     color: #FFB354;
 }
 
+
+/* Butão de download,estrela do canto direito */
 .btn-down {
     position: absolute;
     height: 31px;
     width: 120px;
-    left: 842px;
-    top: 0px;
+    left: 1100px;
+    top: 20px;
     border-radius: 4px;
     background: #ED7839;
-    border: 1px solid 0%;
     margin-top: 70px;
     font-size: 16px;
     align-items: flex-start;
     text-align: end;
     font-weight: 500;
-    font-family: Roboto;
+    font-family: 'Roboto';
     color: #FFFFFF;
 }
 
@@ -236,8 +246,8 @@ body {
     position: absolute;
     height: 31px;
     width: 43px;
-    left: 967px;
-    top: 0px;
+    left: 1230px;
+    top: 20px;
     border-radius: 4px;
     background: #ED7839;
     align-items: center;
@@ -248,14 +258,81 @@ body {
     position: absolute;
     height: 31px;
     width: 43px;
-    left: 1015px;
-    top: 0px;
+    left: 1280px;
+    top: 20px;
     border-radius: 4px;
     background: #ED7839;
     margin-top: 70px;
     align-items: center;
 }
 
+.work {
+    position: absolute;
+    height: 25px;
+    width: 239px;
+    left: 1090px;
+    top: 120px;
+    border-radius: 'nullpx';
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: right;
+    color: #ED7839;
+}
+
+/* mensagem Centro */
+
+.center {
+    position: absolute;
+    width: 790px;
+    left: 270px;
+    top: 90px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #ED7839;
+    font-style: normal;
+}
+
+.video {
+    position:absolute;
+    top: 220px;
+    left: 270px;
+    background: #8D350680;
+
+
+}
+
+.texto {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-align:left;
+    height: 54px;
+    width: 734px;
+    position: absolute;
+    top: 220px;
+    left: 310px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Rodapé */
 footer {
     height: 181px;
     width: 1146px;
@@ -274,6 +351,8 @@ footer img {
 
 }
 
+
+/* Responsividade */
 @media screen and (max-heigth:450px) {
     .menu-item {
         padding-top: 15px;
