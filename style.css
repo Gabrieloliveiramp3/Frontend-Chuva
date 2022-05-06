@@ -1,19 +1,29 @@
 body {
     height: 1701px;
     width: 1366px;
-    left: -684px;
-    top: -978px;
+    margin: 0;
+    padding-top: 55;
     border-radius: 0px;
-    background: #FFFFFF;
+
+}
+
+.menu-item-logo {
+    height: 258px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
 
 }
 
 .side-menu {
     height: 1701px;
-    width: 220px;
+    width: 1366px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
+    position: fixed;
+
 
 }
 
@@ -21,47 +31,109 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    height: 536px;
+    margin-top: 100px;
     width: 220px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-
 
 }
 
 .side-bar-shadow {
-    height: 2508px;
+    height: 1701px;
     width: 220px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
-
     background: #FFFFFF;
-    box-shadow: 0px 0px 10px 0px #00000040;
-
+    box-shadow: 0px 0px 1em #00000040;
 
 }
+
 
 .menu-top {
     height: 68px;
     width: 220px;
-    left: 0px;
-    top: 0px;
+    padding: 1110;
     border-radius: 0px;
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     color: #FFFFFF;
+    position: fixed;
+}
+
+.menu-top1 {
+    position: absolute;
+    height: 68px;
+    width: 1146px;
+    margin-left: 220px;
+    border-radius: 0px;
+    background: #FDF1EB;
+    margin-top: -20px;
+    line-height: 0%;
+}
+
+.menu-top1 p {
+    padding-top: 10px;
+    height: 20px;
+    width: 491px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #725C5C;
+    margin-left: 36px;
+
+}
+
+.menu-top1 h1 {
+    height: 26px;
+    width: 643px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #725C5C;
+    margin-left: 36px;
+}
+
+.menu-top1 h2 {
+    height: 16px;
+    width: 105px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #725C5C;
+    margin-left: 36px;
+
+
 }
 
 .menu-item {
-    height: 258px;
+    position: static;
     width: 220px;
+    height: 35px;
     left: 0px;
-    top: 68px;
+    top: 501px;
+}
+
+
+footer {
+    height: 181px;
+    width: 1146px;
+    padding-top: 1401px;
+    left: 210px;
     border-radius: 0px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 0px;
+    position: absolute;
+}
+
+footer img {
+    position: absolute;
+    left: 30px;
+    right: 4.01%;
+    top: 0%;
+    bottom: 0%;
+
 }
