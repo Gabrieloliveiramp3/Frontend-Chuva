@@ -17,13 +17,12 @@ body {
 }
 
 .side-menu {
-    height: 1701px;
-    width: 1366px;
+    height: 100%;
+    width: 160px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
     position: fixed;
-
 
 }
 
@@ -44,7 +43,6 @@ body {
     border-radius: 0px;
     background: #FFFFFF;
     box-shadow: 0px 0px 1em #00000040;
-
 }
 
 
@@ -67,6 +65,7 @@ body {
     background: #FDF1EB;
     margin-top: -20px;
     line-height: 0%;
+    text-align: center;
 }
 
 .menu-top1 p {
@@ -83,6 +82,24 @@ body {
 
 }
 
+.apresentacao {
+
+    height: 33px;
+    width: 220px;
+    left: auto;
+    top: 0px;
+    border-radius: 50px;
+background-color: #FFFFFF;
+}
+
+.comite{
+    height: 33px;
+    width: 220px;
+    left: auto;
+    top: 0px;
+    border-radius: 50px;
+background-color: #FFFFFF;
+}
 .menu-top1 h1 {
     height: 26px;
     width: 643px;
@@ -117,8 +134,34 @@ body {
     height: 35px;
     left: 0px;
     top: 501px;
+    display: block;
+    margin-left: -100px;
+    align-items: center;
 }
 
+.menu-item a {
+    display: flex;
+    color: #725C5C;
+    align-items: center;
+    padding: 0 0 0 24px;
+    text-decoration: none;
+    height: 33px;
+    width: 220px;
+    border-radius: 0px;
+    background-color: transparent;
+
+}
+
+
+.menu-item a:hover {
+    background-color: #FDF1EB;
+}
+
+
+
+.menu-item a.active {
+    color: #FFB354;
+}
 
 footer {
     height: 181px;
@@ -135,5 +178,16 @@ footer img {
     right: 4.01%;
     top: 0%;
     bottom: 0%;
+
+}
+
+@media screen and (max-heigth:450px) {
+    .menu-item {
+        padding-top: 15px;
+    }
+
+    .menu-item a {
+        font-size: 18px;
+    }
 
 }
