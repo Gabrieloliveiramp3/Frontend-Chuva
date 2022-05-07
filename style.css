@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100%;
 }
 
 .menu-item-logo {
@@ -53,6 +52,8 @@ body {
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     color: #FFFFFF;
     position: fixed;
+    left: 0px;
+    text-align: center;
 }
 
 /* texto central da barra de cima */
@@ -163,13 +164,14 @@ body {
 
 /* canto direito, menu*/
 .apresentacao {
-
     height: 33px;
     width: 220px;
-    left: auto;
+    left: 50px;;
     top: 0px;
-    border-radius: 50px;
-    background-color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+border: 2px solid blue;   
+ background-color: #FFFFFF;
 }
 
 .comite {
@@ -230,15 +232,16 @@ body {
     background: #ED7839;
     margin-top: 70px;
     font-size: 16px;
-    align-items: flex-start;
-    text-align: end;
+    text-align: center;
     font-weight: 500;
     font-family: 'Roboto';
     color: #FFFFFF;
+    border: #ED7839;
 }
 
 .btn-down img {
     align-items: flex-start;
+
 }
 
 .btn-star {
@@ -251,7 +254,7 @@ body {
     border-radius: 4px;
     background: #ED7839;
     align-items: center;
-
+    border: #ED7839;
 }
 
 .btn-doi {
@@ -264,6 +267,7 @@ body {
     background: #ED7839;
     margin-top: 70px;
     align-items: center;
+    border: #ED7839;
 }
 
 .work {
@@ -303,8 +307,6 @@ body {
     top: 220px;
     left: 270px;
     background: #8D350680;
-
-
 }
 
 .texto {
@@ -334,9 +336,8 @@ body {
 
 /* Rodapé */
 footer {
-    height: 181px;
-    width: 1146px;
-    padding-top: 1401px;
+    width: 115px;
+    padding-top: 91px;
     left: 210px;
     border-radius: 0px;
     position: absolute;
@@ -345,10 +346,6 @@ footer {
 footer img {
     position: absolute;
     left: 30px;
-    right: 4.01%;
-    top: 0%;
-    bottom: 0%;
-
 }
 
 
