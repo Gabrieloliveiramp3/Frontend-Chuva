@@ -168,11 +168,7 @@ body {
     height: 33px;
     width: 220px;
     left: 50px;
-    ;
     top: 0px;
-    align-items: center;
-    text-align: center;
-    border: 2px solid transparent;
     background-color: #FFFFFF;
     max-width: 100%;
 }
@@ -182,19 +178,17 @@ body {
     width: 220px;
     left: auto;
     top: 0px;
-    border-radius: 50px;
     background-color: #FFFFFF;
 }
 
 
 
 .menu-item {
-    position: static;
+    position: abs;
     width: 220px;
     height: 35px;
     left: 0px;
     top: 501px;
-    display: block;
     margin-left: -100px;
     align-items: center;
 }
@@ -202,14 +196,11 @@ body {
 .menu-item a {
     display: flex;
     color: #725C5C;
-    align-items: center;
-    padding: 0 0 0 24px;
+    padding: 0 0 5px 24px;
     text-decoration: none;
     height: 33px;
-    width: 220px;
-    border-radius: 0px;
-    background-color: transparent;
-
+    width: 205px;
+    border: 1px solid;
 }
 
 
@@ -271,7 +262,6 @@ body {
     border-radius: 4px;
     background: #ED7839;
     margin-top: 70px;
-    align-items: center;
     border: #ED7839;
 }
 
@@ -410,19 +400,118 @@ body {
     border: 1px solid #ECECEC;
 }
 
-.painel-header{
+.painel-header {
     height: 25px;
-width: 1028px;
-left: 16px;
-top: 552px;
-border-radius: 'nullpx';
-font-family: 'Roboto';
-font-size: 30px;
-font-weight: 500;
-line-height: 10px;
-letter-spacing: 0em;
-color: #4E4E4E;
+    width: 1028px;
+    left: 16px;
+    top: 552px;
+    border-radius: 'nullpx';
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0em;
+    color: #4E4E4E;
+    padding-left: 20px;
+    text-align: left;
 }
+
+.resumo {
+    height: 485px;
+    width: 1010px;
+    left: 0px;
+    top: 0px;
+    border-radius: 'nullpx';
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-family: 'Quicksand';
+    line-height: 23px;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+
+/* Discussões */
+
+.retangulo {
+    height: 45px;
+    width: 1058px;
+    left: 0px;
+    border-radius: [object Object]px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    margin-left: 270px;
+    margin-bottom: 800px;
+    margin-top: -400px;
+}
+
+.name-discussao {
+    height: 25px;
+    width: 1027px;
+    left: 16px;
+    top: 1142px;
+    border-radius: 'nullpx';
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E4E4E;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+
+.box {
+    height: 621px;
+    width: 1058px;
+    left: 0px;
+    top: 1132px;
+    border-radius: 3px;
+    border: 1px solid #ECECEC;
+}
+
+.text1 {
+    height: 22px;
+    width: 422px;
+    left: 324.5px;
+    top: 1192px;
+    border-radius: 'nullpx';
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #ED7839;
+    margin-left: 350px;
+}
+
+.text2 {
+    height: 39px;
+    width: 626px;
+    left: 216.5px;
+    top: 1325px;
+    border-radius: nullpx;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #595959;
+    margin-left: 300px;
+    margin-top: 250px;
+}
+
+.imagecenter{
+
+
+
+
+
+
 
 
 
@@ -460,12 +549,41 @@ footer img {
     }
 }
 
-@media screen and (max-heigth:360px) {
+@media screen and (max-width:360px) {
     .footer img {
         display: none;
     }
 
     body {
         background-color: #333333;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .sidebar {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-item {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .menu-item a {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+    }
+
+}
+
+@media screen and(max-width: 400px) {
+    body {
+        background-color: #ED7839;
     }
 }
