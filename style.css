@@ -1,7 +1,8 @@
 body {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 
@@ -11,7 +12,6 @@ body {
     left: 0px;
     top: 0px;
     border-radius: 0px;
-
 }
 
 
@@ -138,7 +138,6 @@ body {
     font-size: 12px;
     line-height: 15px;
 
-    /* identical to box height */
     text-align: right;
 
     color: #333333;
@@ -164,57 +163,92 @@ body {
 }
 
 /* canto direito, menu*/
+
 .apresentacao {
+
     height: 33px;
     width: 220px;
-    left: 50px;
+    left: 0px;
     top: 0px;
-    background-color: #FFFFFF;
-    max-width: 100%;
+    border-radius: 0px;
+    text-align: left;
 }
 
 .comite {
+
     height: 33px;
     width: 220px;
-    left: auto;
-    top: 0px;
-    background-color: #FFFFFF;
-}
-
-
-
-.menu-item {
-    position: abs;
-    width: 220px;
-    height: 35px;
     left: 0px;
-    top: 501px;
-    margin-left: -100px;
-    align-items: center;
+    top: 0px;
+    border-radius: 0px;
+    text-align: left;
+
 }
+
+.autores {
+
+    height: 33px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    text-align: left;
+}
+
+.eixos {
+
+    height: 33px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    text-align: left;
+}
+
+.trabalho {
+
+    height: 33px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    text-align: left;
+
+}
+
+.contato {
+
+    height: 33px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    text-align: left;
+
+}
+
 
 .menu-item a {
-    display: flex;
+    position: relative;
     color: #725C5C;
-    padding: 0 0 5px 24px;
-    text-decoration: none;
     height: 33px;
-    width: 205px;
-    border: 1px solid;
+    width: 220px;
+    text-decoration: none;
+
 }
 
 
 .menu-item a:hover {
     background-color: #FDF1EB;
+    height: 33px;
+    width: 220px;
 }
 
 
 
-.menu-item a.active {
-    color: #FFB354;
-    height: 20px;
-    width: 0px;
-}
+
+
+
 
 
 /* Butão de download,estrela do canto direito */
@@ -232,7 +266,6 @@ body {
     font-weight: 500;
     font-family: 'Roboto';
     color: #FFFFFF;
-    border: #ED7839;
 }
 
 .btn-down img {
@@ -250,7 +283,6 @@ body {
     border-radius: 4px;
     background: #ED7839;
     align-items: center;
-    border: #ED7839;
 }
 
 .btn-doi {
@@ -262,7 +294,7 @@ body {
     border-radius: 4px;
     background: #ED7839;
     margin-top: 70px;
-    border: #ED7839;
+
 }
 
 .work {
@@ -382,6 +414,7 @@ body {
 
 .resumo-aberto {
     position: absolute;
+    text-overflow:clip;
     height: 560px;
     width: 1058px;
     left: 270px;
@@ -414,6 +447,7 @@ body {
     color: #4E4E4E;
     padding-left: 20px;
     text-align: left;
+    margin-top: -10px;
 }
 
 .resumo {
@@ -430,6 +464,7 @@ body {
     line-height: 23px;
     text-align: left;
     color: #5C5C5C;
+    margin-top: -200px;
 }
 
 
@@ -493,39 +528,189 @@ body {
     width: 626px;
     left: 216.5px;
     top: 1325px;
-    border-radius: nullpx;
-    font-family: Quicksand;
+    border-radius: 'nullpx';
+    font-family: 'Quicksand';
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
     color: #595959;
-    margin-left: 300px;
-    margin-top: 250px;
+    margin-left: 250px;
+    margin-top: 130px;
+    text-align: center;
 }
 
-.imagecenter{
+.imagecenter {
+    display: flex;
+    height: 48.93539047241211px;
+    width: 50.259674072265625px;
+    left: 608.5px;
+    top: 870px;
+    border-radius: 0px;
+    margin-left: 430px;
+    margin-top: -150px;
 
+}
 
+.img1 {
+    padding-right: 40px;
+}
 
+.img2 {
+    padding-right: 40px;
+}
 
+/*  */
+.barra {
+    height: 0px;
+    width: 1027px;
+    left: 16px;
+    top: 1024px;
+    border-radius: 0px;
+    border: 1px solid #E7E7E7;
+    margin-top: -526px;
+    margin-left: 288px;
+    margin-bottom: -30px;
+}
 
+.btn-topico {
+    position: absolute;
+    height: 32px;
+    width: 133px;
+    left: 463px;
+    top: 1097px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    margin-left: 290px;
+    margin-top: 508px;
+    padding: auto;
+    color: #E7E7E7;
+}
 
+.topic {
+    height: 16px;
+    width: 83px;
+    left: 500px;
+    top: 1014px;
+    border-radius: 'nullpx';
+    font-family: 'Quicksand';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
 
+    margin-top: -8px;
+    margin-left: 20px;
+}
 
+.ret1 {
+    position: relative;
+    height: 17px;
+    width: 3px;
+    left: 477px;
+    top: 1025px;
+    border-radius: 1px;
+    background: #ffffff;
+    margin-top: -1057px;
+    margin-left: -466px;
+}
 
+.ret2 {
+    position: absolute;
+    height: 17px;
+    width: 3px;
+    left: 484px;
+    top: 1015px;
+    border-radius: 1px;
+    background: hsl(0, 0%, 100%);
+    transform: rotate(-90deg);
+    margin-top: -1010px;
+    margin-left: -469px;
+}
 
+/* Tópico 1 */
 
+.retangulo1 {
+    height: 148px;
+    width: 1028px;
+    left: 15px;
+    top: 1054px;
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    margin-left: 290px;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+
+.assunto {
+    height: 20px;
+    width: 267px;
+    left: 39.1654052734375px;
+    top: 1071px;
+    border-radius: 'nullpx';
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ED7839;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.autor {
+    height: 15px;
+    width: 542.0706787109375px;
+    left: 39.1654052734375px;
+    top: 1094px;
+    border-radius: 'nullpx';
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    margin-left: 20px;
+    margin-top: -10px;
+    color: #5C5C5C;
+}
+
+.msg {
+    height: 35px;
+    width: 980.669189453125px;
+    left: 39.1654052734375px;
+    top: 1119px;
+    border-radius: nullpx;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4D4D;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.img-like {
+    margin-left: 20px;
+    margin-top: 10px;
+}
 
 
 /* Rodapé */
 footer {
     width: 115px;
-    padding-top: 91px;
+    padding-top: 291px;
     left: 210px;
     border-radius: 0px;
     position: absolute;
+    
 }
 
 footer img {
@@ -533,57 +718,63 @@ footer img {
     left: 30px;
 }
 
+/* Leia mais/menos */
+.section {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+
+}
+
+.section > .txt-more {
+
+    /*posiciona o link no final da DIV*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+
+}
+
+.section > .partial {
+    margin-top:0px;
+    height: 190px; /* limita a altura aqui, assim irá limitar o texto*/
+    overflow: hidden;
+}
+
+.section > a::before {
+    content: "ver menos"; /*Texto de quando o texto estiver visivel*/
+    color: #ED7839;
+
+}
+
+.section > a.txt-more::before {
+    margin-left: 100px;
+    content: "... ver mais"; /* texto para o link*/
+    color: #ED7839;
+}
+
 
 /* Responsividade */
-@media screen and (max-heigth:400px) {
-    .menu-item {
-        padding-top: 15px;
-    }
-
-    .menu-item a {
-        font-size: 18px;
-    }
-
-    .video {
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width:360px) {
-    .footer img {
+@media only screen and (max-width:810px) {
+    .side-menu,.menu-item,.menu-item-logo,.menu-top,.menu-top1,.side-bar-shadow,.side-menu,.side-menu,.sidebar,.linguagem,.bemvindo,.email,.image,.painel-header,.topic,.btn-topico{
         display: none;
     }
-
-    body {
-        background-color: #333333;
-    }
-}
-
-@media screen and (max-width:360px) {
-    .sidebar {
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .menu-item {
-        position: absolute;
-        opacity: 0;
-    }
-
-    .menu-item a {
-        cursor: pointer;
-        position: relative;
-        display: block;
-        height: 22px;
-        width: 30px;
-    }
+   .resumo{
+       width: auto;
+   }
+   footer{
+       overflow: scroll;
+   }
+   .btn,.video{
+       position: relative;
+       width: 100%;
+   }
+   .retangulo{
+       overflow: initial;
+   }
 
 }
-
-@media screen and(max-width: 400px) {
-    body {
-        background-color: #ED7839;
-    }
-}
+    
+    
