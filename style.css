@@ -390,24 +390,45 @@ body {
 }
 
 .text {
-    height: 364px;
+    position: absolute;
+    height: 3px;
     width: 212px;
     left: 831px;
-    top: 133px;
-    border-radius: nullpx;
-    font-family: Quicksand;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.02em;
-    text-align: left;
+    top: 113px;
+    list-style: none;
+    margin-left: -818px;
+    margin-top: -65px;
+}
 
-    font-family: Quicksand;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.02em;
-    text-align: left;
+.text p1{
+    
+}
+
+.barra1{
+    height: 200px;
+width: 6px;
+left: 1049px;
+top: 128px;
+border-radius: 5px;
+background: #BFBFBF;
+margin-left: 147px;
+margin-top: 30px;
+font-size: 1px;
+}
+
+.barra2{
+    height: 343px;
+width: 6px;
+left: 1099px;
+top: 128px;
+border-radius: 5px;
+background: #E7E7E7;
+margin-left: 147px ;
+margin-top: -150px;
+}
+.barra3{
+    margin-top: -34px;
+    margin-left: 90px;
 }
 
 /* resumo central */
